@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(224, 235, 255);
+}
+
+#heading {
+    font-size: 3rem;
+    margin: 1.5rem;
+}
+
+#review-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem grey;
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+
+#review-container #img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin: 1rem;
+    object-fit: cover;
+}
+
+#review-container #name {
+    letter-spacing: 0.2rem;
+    margin-top: 0.5rem;
+}
+
+#review-container #job {
+    color: cornflowerblue;
+    text-transform: uppercase;
+    margin: 0.2rem;
+
+}
+
+#review-container #review {
+    text-align: center;
+    margin: 1rem;
+}
+
+#review-container #buttons-container {
+    margin: 1rem;
+}
+
+#review-container #buttons-container .btn {
+    font-size: 2rem;
+    background-color: transparent;
+    margin: 0 0.5rem;
+    color: cornflowerblue;
+    border-color: transparent;
+    padding: 0 0.1rem;
+    border-radius: 1rem;
+}
+
+#review-container #buttons-container .btn:hover {
+    cursor: pointer;
+    border: 0.1rem solid cornflowerblue;
+    background-color: rgb(224, 235, 255); 
+}
+
+#review-container #surprise {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: solid cornflowerblue 0.1rem;
+    color: cornflowerblue;
+    border-radius: 1rem;
+    background-color: white;
+    transition: all;
+}
+
+#review-container #surprise:hover {
+    background-color: rgb(224, 235, 255);
+    cursor: pointer;
+}
+
